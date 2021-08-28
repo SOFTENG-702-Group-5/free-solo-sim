@@ -331,3 +331,43 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 811.712039 seconds.
+  path: Assets/Materials/Granite.mat
+  artifactKey: Guid(d16f76b248f0f470898dfb85a93538bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Granite.mat using Guid(d16f76b248f0f470898dfb85a93538bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6662d1df50d55306f55f18009e70a9bc') in 0.060615 seconds 
+  Import took 0.062886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.169733 seconds.
+  path: Assets/Materials/Clay.mat
+  artifactKey: Guid(d16f76b248f0f470898dfb85a93538bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Clay.mat using Guid(d16f76b248f0f470898dfb85a93538bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1659674addfe11a02f2cbe82824e89c') in 0.013017 seconds 
+  Import took 0.015244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.323796 seconds.
+  path: Assets/Materials/Clay.mat
+  artifactKey: Guid(d16f76b248f0f470898dfb85a93538bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Clay.mat using Guid(d16f76b248f0f470898dfb85a93538bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b789b8f4ee57f7be44814b8a76c368') in 0.011200 seconds 
+  Import took 0.014066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.381043 seconds.
+  path: Assets/Prefabs/Cliff Tile.prefab
+  artifactKey: Guid(4d772fcf9ddb4452e8925744908e39e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cliff Tile.prefab using Guid(4d772fcf9ddb4452e8925744908e39e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b3b31c54952dfe66f105a44e55904a') in 0.030615 seconds 
+  Import took 0.032895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016637 seconds.
+  path: Assets/Prefabs/Cliff Tile.prefab
+  artifactKey: Guid(4d772fcf9ddb4452e8925744908e39e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cliff Tile.prefab using Guid(4d772fcf9ddb4452e8925744908e39e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b3b31c54952dfe66f105a44e55904a') in 0.016283 seconds 
+  Import took 0.019289 seconds .
+
