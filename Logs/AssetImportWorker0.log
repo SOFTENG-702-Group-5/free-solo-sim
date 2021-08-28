@@ -201,3 +201,19 @@ Received Import Request.
 Start importing Assets/Materials/Grass.mat using Guid(483358ea7663842d9b0f8c2f3fed0a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ede63bd490f78b6bf10a0ddd4f4889') in 0.009923 seconds 
   Import took 0.012271 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 599.720555 seconds.
+  path: Assets/Prefabs/Floor Tile.prefab
+  artifactKey: Guid(db341684afe2e482ea3d09b64b4f5345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Floor Tile.prefab using Guid(db341684afe2e482ea3d09b64b4f5345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef58793e4bd43e864598e03c7b5a97e6') in 0.329270 seconds 
+  Import took 0.331643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003336 seconds.
+  path: Assets/Prefabs/Floor Tile.prefab
+  artifactKey: Guid(db341684afe2e482ea3d09b64b4f5345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Floor Tile.prefab using Guid(db341684afe2e482ea3d09b64b4f5345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef58793e4bd43e864598e03c7b5a97e6') in 0.007943 seconds 
+  Import took 0.010176 seconds .
+
