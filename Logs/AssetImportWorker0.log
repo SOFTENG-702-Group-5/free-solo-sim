@@ -265,3 +265,91 @@ Received Import Request.
 Start importing Assets/Prefabs/Big Tree.prefab using Guid(77c1865057d834cc08c8d5f41fbe6f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93027cd5c960d336a4eda94678e9afd4') in 0.023822 seconds 
   Import took 0.026052 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 253.891968 seconds.
+  path: Assets/Materials/Leaf.mat
+  artifactKey: Guid(8bcd2e3ca7a4542639c396e4f55e86e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Leaf.mat using Guid(8bcd2e3ca7a4542639c396e4f55e86e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b317f1f76210a9f5e6191c5aafe77c2') in 0.014816 seconds 
+  Import took 0.017352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Materials/Wood.mat
+  artifactKey: Guid(2062ce2667819409282d39e735fd33c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Wood.mat using Guid(2062ce2667819409282d39e735fd33c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8601973360f477267d70756f11c41a90') in 0.009769 seconds 
+  Import took 0.011840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.781986 seconds.
+  path: Assets/Materials/Bush.mat
+  artifactKey: Guid(d1bb102b8539047ea8ac6291e01e4ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Bush.mat using Guid(d1bb102b8539047ea8ac6291e01e4ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3f1f9f610a86b46cd02f77a5e3fb80') in 0.019369 seconds 
+  Import took 0.021811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.319851 seconds.
+  path: Assets/Prefabs/Bush.prefab
+  artifactKey: Guid(893dd1e7350d141d9874892fc2d09a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bush.prefab using Guid(893dd1e7350d141d9874892fc2d09a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e78d3ed4d9cea88b9c2f56dff5a3f8') in 0.019840 seconds 
+  Import took 0.022110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008227 seconds.
+  path: Assets/Prefabs/Bush.prefab
+  artifactKey: Guid(893dd1e7350d141d9874892fc2d09a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bush.prefab using Guid(893dd1e7350d141d9874892fc2d09a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e78d3ed4d9cea88b9c2f56dff5a3f8') in 0.026193 seconds 
+  Import took 0.028868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.805655 seconds.
+  path: Assets/Prefabs/Bush.prefab
+  artifactKey: Guid(893dd1e7350d141d9874892fc2d09a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bush.prefab using Guid(893dd1e7350d141d9874892fc2d09a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c2b3b784dc1050e589be69a7de3ca5') in 0.017346 seconds 
+  Import took 0.019889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011704 seconds.
+  path: Assets/Prefabs/Bush.prefab
+  artifactKey: Guid(893dd1e7350d141d9874892fc2d09a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bush.prefab using Guid(893dd1e7350d141d9874892fc2d09a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c2b3b784dc1050e589be69a7de3ca5') in 0.025589 seconds 
+  Import took 0.028626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.849177 seconds.
+  path: Assets/Prefabs/Bush.prefab
+  artifactKey: Guid(893dd1e7350d141d9874892fc2d09a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bush.prefab using Guid(893dd1e7350d141d9874892fc2d09a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1828d3b5e9a1dc703f2bebe3930be6fc') in 0.010990 seconds 
+  Import took 0.013248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013929 seconds.
+  path: Assets/Prefabs/Bush.prefab
+  artifactKey: Guid(893dd1e7350d141d9874892fc2d09a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bush.prefab using Guid(893dd1e7350d141d9874892fc2d09a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1828d3b5e9a1dc703f2bebe3930be6fc') in 0.011115 seconds 
+  Import took 0.013377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.115548 seconds.
+  path: Assets/Prefabs/Bush.prefab
+  artifactKey: Guid(893dd1e7350d141d9874892fc2d09a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bush.prefab using Guid(893dd1e7350d141d9874892fc2d09a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a4622f27fc1e76853dbf1522013755') in 0.015220 seconds 
+  Import took 0.017549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.669097 seconds.
+  path: Assets/Prefabs/Bush.prefab
+  artifactKey: Guid(893dd1e7350d141d9874892fc2d09a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bush.prefab using Guid(893dd1e7350d141d9874892fc2d09a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71790200fd586f44c78808dd7b8ebb51') in 0.016959 seconds 
+  Import took 0.019317 seconds .
+
