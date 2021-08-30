@@ -410,3 +410,51 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 674.358177 seconds.
+  path: Assets/Materials/Bush.mat
+  artifactKey: Guid(d1bb102b8539047ea8ac6291e01e4ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Bush.mat using Guid(d1bb102b8539047ea8ac6291e01e4ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de61ccb91d33b5d288bada63eacc62f9') in 0.063202 seconds 
+  Import took 0.065620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.245267 seconds.
+  path: Assets/Materials/Jaggered Clay.mat
+  artifactKey: Guid(b555bf94b417c4918ba49115d2878d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jaggered Clay.mat using Guid(b555bf94b417c4918ba49115d2878d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eddc3f23f244644cd61fe6452811f7a') in 0.015767 seconds 
+  Import took 0.017975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.562550 seconds.
+  path: Assets/Prefabs/Jaggered Rock.prefab
+  artifactKey: Guid(f4548199516a0487ea26e513f28f7538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Jaggered Rock.prefab using Guid(f4548199516a0487ea26e513f28f7538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628c39dbdb44dceb8c4982e5f2757c37') in 0.020104 seconds 
+  Import took 0.022415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011149 seconds.
+  path: Assets/Prefabs/Jaggered Rock.prefab
+  artifactKey: Guid(f4548199516a0487ea26e513f28f7538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Jaggered Rock.prefab using Guid(f4548199516a0487ea26e513f28f7538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628c39dbdb44dceb8c4982e5f2757c37') in 0.038680 seconds 
+  Import took 0.040976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 580.514544 seconds.
+  path: Assets/Materials/Jaggered Clay.mat
+  artifactKey: Guid(b555bf94b417c4918ba49115d2878d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jaggered Clay.mat using Guid(b555bf94b417c4918ba49115d2878d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910334006388320b1ef6fb361f113482') in 0.018111 seconds 
+  Import took 0.020587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 147.098320 seconds.
+  path: Assets/Materials/Jaggered Clay.mat
+  artifactKey: Guid(b555bf94b417c4918ba49115d2878d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jaggered Clay.mat using Guid(b555bf94b417c4918ba49115d2878d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de56b42822675545e40e3e91731d9c9c') in 0.029416 seconds 
+  Import took 0.031637 seconds .
+
