@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637658796357249399
+      ticks: 637663222510876991
     m_Hash: 3870291422
   m_LockFileStatus:
     m_FilePath: C:/Users/Kyle/source/repos/free-solo-sim/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637658796357259355
+      ticks: 637663222510887003
     m_Hash: 2579885654
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -358,6 +358,7 @@ m_PackageAssets:
         - 1.2.1
         - 1.2.2
         - 1.2.3
+        - 1.2.4
         compatible:
         - 1.0.2
         - 1.0.3
@@ -370,7 +371,8 @@ m_PackageAssets:
         - 1.2.1
         - 1.2.2
         - 1.2.3
-        verified: 1.2.3
+        - 1.2.4
+        verified: 1.2.4
       dependencies: []
       resolvedDependencies: []
       keywords: []
