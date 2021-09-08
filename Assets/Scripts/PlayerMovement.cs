@@ -6,7 +6,6 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float moveSpeed;
     [SerializeField] private float walkSpeed;
-    [SerializeField] private float runSpeed;
 
     private Vector3 moveDirection;
     private Vector3 velocity;
@@ -48,26 +47,19 @@ public class PlayerMovement : MonoBehaviour
         moveDirection = new Vector3(moveX, 0, moveZ);
         moveDirection = transform.TransformDirection(moveDirection);
 
+        if (moveDirection != Vector3.zero)
+        {
+            Walk();
+        }
+        else
+        {
+            Idle();
+        }
+
+        moveDirection *= moveSpeed;
+
         if (isGrounded)
         {
-            if (moveDirection != Vector3.zero)
-            {
-                if (Input.GetKeyDown(KeyCode.LeftShift))
-                {
-                    Run();
-                }
-                else
-                {
-                    Walk();
-                }
-            }
-            else
-            {
-                Idle();
-            }
-
-            moveDirection *= moveSpeed;
-
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 Jump();
@@ -84,12 +76,6 @@ public class PlayerMovement : MonoBehaviour
     {
         moveSpeed = walkSpeed;
         anim.SetFloat("Speed", 0.5f, 0.1f, Time.deltaTime);
-    }
-
-    private void Run()
-    {
-        moveSpeed = runSpeed;
-        anim.SetFloat("Speed", 1, 0.1f, Time.deltaTime);
     }
 
     private void Idle()
