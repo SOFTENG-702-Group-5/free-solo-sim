@@ -4,18 +4,16 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed;
     [SerializeField] private float walkSpeed;
+    [SerializeField] private float climbSpeed;
 
-    private Vector3 moveDirection;
-    private Vector3 velocity;
-
+    private bool isGrounded;
     [SerializeField] private Transform groundCheck;
-    [SerializeField] private bool isGrounded;
-    [SerializeField] private float groundCheckDistance;
     [SerializeField] private LayerMask groundMask;
-    [SerializeField] private float gravity;
-    [SerializeField] private float jumpHeight;
+
+    private bool isOnWall;
+    [SerializeField] private Transform wallCheck;
+    [SerializeField] private LayerMask wallMask;
 
     private CharacterController controller;
     private Animator anim;
@@ -35,57 +33,66 @@ public class PlayerMovement : MonoBehaviour
 
     private void Move()
     {
-        isGrounded = Physics.CheckSphere(groundCheck.position, groundCheckDistance, groundMask);
-        if (isGrounded && velocity.y < 0)
-        {
-            velocity.y = -2f;
-        }
-
-        float moveX = Input.GetAxis("Horizontal");
         float moveZ = Input.GetAxis("Vertical");
 
-        moveDirection = new Vector3(moveX, 0, moveZ);
-        moveDirection = transform.TransformDirection(moveDirection);
+        Vector3 moveDirection = new Vector3(0, 0, moveZ * walkSpeed);
+
+        isGrounded = Physics.CheckSphere(groundCheck.position, 0.4f, groundMask);
+        isOnWall = Physics.CheckSphere(wallCheck.position, 0.9f, wallMask);
+        if (isOnWall)
+        {
+            if (Input.GetKey(KeyCode.Space))
+            {
+                moveDirection = new Vector3(0, climbSpeed, 0);
+            }
+        }
 
         if (moveDirection != Vector3.zero)
         {
-            Walk();
+            if (moveDirection.y == 0)
+            {
+                Walk();
+            }
+            else
+            {
+                Climb();
+            }
         }
         else
         {
-            Idle();
-        }
-
-        moveDirection *= moveSpeed;
-
-        if (isGrounded)
-        {
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (isGrounded)
             {
-                Jump();
+                Idle();
+            }
+            else
+            {
+                FreezeAnimation();
             }
         }
 
         controller.Move(moveDirection * Time.deltaTime);
-
-        velocity.y += gravity * Time.deltaTime;
-        controller.Move(velocity * Time.deltaTime);
-    }
-
-    private void Walk()
-    {
-        moveSpeed = walkSpeed;
-        anim.SetFloat("Speed", 0.5f, 0.1f, Time.deltaTime);
     }
 
     private void Idle()
     {
+        anim.speed = 1;
         anim.SetFloat("Speed", 0, 0.1f, Time.deltaTime);
     }
 
-    private void Jump()
+    private void Walk()
     {
-        velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
-        anim.SetTrigger("Jump");
+        anim.speed = 1;
+        anim.SetFloat("Speed", 0.5f, 0.1f, Time.deltaTime);
+    }
+
+    private void Climb()
+    {
+        anim.speed = 1;
+        anim.SetFloat("Speed", 1, 0.1f, Time.deltaTime);
+    }
+
+    private void FreezeAnimation()
+    {
+        anim.speed = 0;
     }
 }
