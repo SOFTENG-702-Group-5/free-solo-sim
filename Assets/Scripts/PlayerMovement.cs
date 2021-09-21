@@ -28,7 +28,9 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        Move();
+        if (GameManager.IsInputEnabled) {
+            Move();
+        }
     }
 
     private void Move()
@@ -51,7 +53,14 @@ public class PlayerMovement : MonoBehaviour
         {
             if (moveDirection.y == 0)
             {
-                Walk();
+                if (isGrounded)
+                {
+                    Walk();
+                }
+                else
+                {
+                    moveDirection = Vector3.zero;
+                }
             }
             else
             {
@@ -64,7 +73,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 Idle();
             }
-            else
+            else if (isOnWall)
             {
                 FreezeAnimation();
             }
