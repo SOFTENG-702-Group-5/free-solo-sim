@@ -53,7 +53,7 @@
     <UnityVersion>2020.3.16f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\MantleBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Look2.cs" />
     <Compile Include="Assets\Scripts\Look1.cs" />
     <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
@@ -61,7 +61,6 @@
     <Compile Include="Assets\Scripts\Prompt1.cs" />
     <Compile Include="Assets\Scripts\Mantle.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\Look2.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

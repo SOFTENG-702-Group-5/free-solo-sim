@@ -5,15 +5,16 @@ using UnityEngine;
 public class Mantle : MonoBehaviour
 {
     [SerializeField] private Transform player;
+    [SerializeField] private Transform mantleTo;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
-            Animator anim = player.GetComponentInChildren<Animator>();
-
-            anim.speed = 1;
-            anim.SetTrigger("Mantle");
+            CharacterController cc = player.GetComponent<CharacterController>();
+            cc.enabled = false;
+            player.transform.position = mantleTo.transform.position;
+            cc.enabled = true;
         }
     }
 

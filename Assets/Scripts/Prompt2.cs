@@ -11,7 +11,7 @@ public class Prompt2 : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            promptText.text = "Hold SPACE to climb";
+            promptText.text = "Press SPACE to climb";
         }
     }
 

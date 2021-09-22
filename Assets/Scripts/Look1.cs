@@ -26,6 +26,7 @@ public class Look1 : MonoBehaviour
 
             player.position = new Vector3(gameObject.transform.position.x, player.position.y, gameObject.transform.position.z);
             player.GetComponentInChildren<Animator>().SetFloat("Speed", 0);
+            player.GetComponentInChildren<Animator>().speed = 0;
 
             npc1.GetComponent<Animator>().SetBool("Talk", true);
 
@@ -38,15 +39,12 @@ public class Look1 : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit(Collider other)
-    {
-        Destroy(gameObject);
-    }
-
     void Update()
     {
         if (triggered && !audioSource.isPlaying)
         {
+            Destroy(gameObject);
+
             GameManager.IsCameraEnabled = true;
             GameManager.IsInputEnabled = true;
 

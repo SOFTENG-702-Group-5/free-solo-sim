@@ -36,11 +36,15 @@ public class PlayerMovement : MonoBehaviour
     private void Move()
     {
         float moveZ = Input.GetAxis("Vertical");
+        if (moveZ < 0)
+        {
+            moveZ = 0;
+        }
 
         Vector3 moveDirection = new Vector3(0, 0, moveZ * walkSpeed);
 
         isGrounded = Physics.CheckSphere(groundCheck.position, 0.4f, groundMask);
-        isOnWall = Physics.CheckSphere(wallCheck.position, 0.9f, wallMask);
+        isOnWall = Physics.CheckSphere(wallCheck.position, 0.8f, wallMask);
         if (isOnWall)
         {
             if (Input.GetKey(KeyCode.Space))
@@ -84,7 +88,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Idle()
     {
-        anim.speed = 1;
+        anim.speed = 0.05f;
         anim.SetFloat("Speed", 0, 0.1f, Time.deltaTime);
     }
 
