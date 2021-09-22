@@ -7,11 +7,20 @@ public class Look1 : MonoBehaviour
 {
     [SerializeField] private Transform npc1;
     [SerializeField] private Transform player;
+    [SerializeField] private AudioSource audioSource;
+    private Camera cam;
+    private bool triggered = false;
+
+    private void Start()
+    {
+        cam = player.GetComponentInChildren<Camera>();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
+            triggered = true;
             GameManager.IsCameraEnabled = false;
             GameManager.IsInputEnabled = false;
 
@@ -20,17 +29,29 @@ public class Look1 : MonoBehaviour
 
             npc1.GetComponent<Animator>().SetBool("Talk", true);
 
-            Camera cam = player.GetComponentInChildren<Camera>();
             cam.transform.localRotation = Quaternion.Euler(10f, -30f, 0f);
 
-            // player.LookAt(npc1);
+            if (!audioSource.isPlaying)
+            {
+                audioSource.Play();
+            }
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
         Destroy(gameObject);
-        npc1.GetComponent<Animator>().SetBool("Talk", false);
-        player.LookAt(new Vector3(0, 0, 19));
+    }
+
+    void Update()
+    {
+        if (triggered && !audioSource.isPlaying)
+        {
+            GameManager.IsCameraEnabled = true;
+            GameManager.IsInputEnabled = true;
+
+            npc1.GetComponent<Animator>().SetBool("Talk", false);
+            cam.transform.localRotation = Quaternion.Euler(0f, 0f, 0f);
+        }
     }
 }
