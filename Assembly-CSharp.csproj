@@ -61,6 +61,7 @@
     <Compile Include="Assets\Scripts\Prompt1.cs" />
     <Compile Include="Assets\Scripts\Mantle.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Teleporting.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
